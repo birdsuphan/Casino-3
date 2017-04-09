@@ -1,0 +1,406 @@
+/* LET'S START */
+
+@font-face {
+	font-family: Bebas;
+	src: url('../fonts/Bebas.ttf');
+}
+
+@font-face {
+	font-family: Branding;
+	src: url('../fonts/Branding.ttf');
+}
+
+@font-face {
+	font-family: BrandingB;
+	src: url('../fonts/BrandingB.ttf');
+}
+
+@font-face {
+	font-family: Helvetica-Light;
+	src: url('../fonts/Helvetica-Light.ttf');
+}
+
+@font-face {
+	font-family: Helvetica;
+	src: url('../fonts/Helvetica-Regular');
+}
+
+@font-face {
+	font-family: Montserrat-Light;
+	src: url('../fonts/Montserrat-Hairline.otf');
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url('../fonts/Montserrat-Regular.otf');
+}
+
+@font-face {
+	font-family: Montserrat-Bold;
+	src: url('../fonts/Montserrat-SemiBold.otf');
+}
+
+/* MAIN */
+
+body, html {
+	overflow-x: hidden;
+    font-family: 'Questrial',sans-serif;
+}
+
+/*main color: #7EA927*/
+
+#wrapper {
+  margin-top: 50px;
+}
+
+.splash {
+  background: url('../images/splash-bg.jpg');
+  background-size: 100%;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Questrial',sans-serif;
+  padding: 40px;
+  text-align: center;
+}
+
+.splash h1 {
+  font-size: 40pt;
+}
+
+.splash .btn.btn-primary {
+  font-family: 'Roboto Condensed';
+  text-transform: uppercase;
+  border-radius: 0px;
+  background: #7EA927;
+  padding: 30px;
+  margin-right: 15px;
+  border: 0px;
+}
+
+.navbar-fixed-top {
+  background: white;
+  border-bottom: 2px solid #7EA927;
+  font-family: 'Roboto Condensed';
+  /*font-size: 20px;*/
+}
+
+.section-tout {
+  padding: 40px;
+  background: #f7f7f7;
+  font-family: 'Questrial';
+}
+
+.section-tout h1 {
+  font-family: 'Roboto Condensed';
+
+}
+
+.dropdown-menu {
+  border-radius: 0px;
+}
+
+.section-tout .panel {
+  border-radius: 0px;
+  border: 0px;
+  border-bottom: 2px solid #e4e4e4;
+}
+
+ .btn.btn-success {
+  font-family: 'Roboto Condensed';
+  padding: 20px;
+  background: #7EA927;
+  border: 0px;
+  text-transform: uppercase;
+}
+
+#homeimg {
+  text-align: center;
+  width: 50%;
+}
+
+.home-stat {
+  background: url('../images/stat-bg.jpg');
+  background-size: 100%;
+  background-attachment: fixed;
+  min-height: 30px;
+  position: relative;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  font-family: 'Questrial';
+}
+
+.home-stat i {
+  font-size: 60pt;
+  padding: 20px;
+}
+
+.strike-left {
+  position: absolute;
+    min-height: 6px;
+    background: #7EA927;
+    left: 0;
+    width: 35%;
+    margin-top: 30px;
+}
+
+.strike-right {
+  position: absolute;
+    min-height: 6px;
+    background: #7EA927;
+    right: 0;
+    width: 35%;
+    margin-top: 30px;
+}
+
+.well {
+  box-shadow: none;
+  border-radius: 0px;
+
+}
+
+.footer {
+  border-top: 2px solid #7EA927;
+  padding: 40px;
+}
+
+
+.footer a {
+  color: #7EA927;
+}
+
+#form-page {
+  background: url('../images/form-bg.jpg');
+  background-size: 100%;
+  background-attachment: fixed;
+  min-height: 80vh;
+}
+
+#duh {
+  background: white;
+  margin-top: 10%;
+  padding: 50px;
+  border: 4px solid #7EA927;
+}
+
+@media screen and (max-width: 1440px) {
+  #duh {
+    margin-top: 2%;
+  }
+}
+
+#duh h2 {
+  font-family: 'Questrial';
+  text-transform: uppercase;
+  color: #2c2c2c;
+}
+
+.form-control {
+  border-radius: 0px;
+  border:0px;
+  border:1px solid #7EA927;
+  padding-left:10px;
+padding-right:10px;
+padding-top:6px;
+padding-bottom:6px;
+  min-height:40px;
+  font-family:'Questrial';
+  box-shadow:none;
+}
+
+ .btn.btn-primary {
+  border-radius: 0px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Roboto Condensed';
+  padding: 12px;
+  background: #7EA927;
+  text-transform: uppercase;
+  font-size: 15pt;
+  border: 0px;
+}
+
+#duh a {
+  color: #7EA927;
+}
+
+.modal-open {
+  padding-right: 0px !important;
+}
+
+#custom-page {
+  background: url('../images/custom-page-bg.jpg');
+  background-size: 150%;
+  background-attachment: fixed;
+  min-height: 80vh;
+}
+
+#admin-page {
+  background: url('../images/admin-bg.jpg');
+  background-size: 150%;
+  background-attachment: fixed;
+  min-height: 80vh;
+}
+
+#admin-page #duh {
+  margin-bottom: 20px;
+  margin-top: 5%;
+}
+
+#admin-page #duh h1 {
+  font-family: 'Questrial';
+}
+
+#admin-page #duh .btn {
+  color: white;
+  border-radius: 0px;
+  font-family: 'Roboto Condensed';
+  text-transform: uppercase;
+
+}
+
+#forum-page {
+  background: url('../images/form-bg.jpg');
+  background-size: 150%;
+  background-attachment: fixed;
+  min-height: 80vh;
+}
+
+#forum-page #duh {
+  margin-top: 5%;
+  margin-bottom: 30px;
+}
+
+#forum-page #duh h1 {
+  font-family: 'Questrial';
+  text-transform: uppercase;
+}
+
+.table>thead>tr.danger>th {
+  background: #7EA927;
+  color: white;
+  font-family: 'Roboto Condensed';
+  text-transform: uppercase;
+}
+
+.table>tbody>tr>td {
+  background: white !important;
+}
+
+.btn {
+  border-radius: 0px;
+  color: white;
+  font-family: 'Questrial';
+}
+
+a.btn {
+  color: white !important;
+}
+
+.btn.btn-default {
+  background: #2c2c2c;
+  font-family: 'Questrial';
+  color: white;
+}
+
+select.form-control {
+padding-left:10px;
+padding-right:10px;
+padding-top:6px;
+padding-bottom:6px;
+}
+
+#perc {
+width: 30px;
+height:40px;
+}
+
+#bet_amt {
+border-bottom:0px !important;
+}
+
+/* new responsive fix */
+
+#perc {
+  width: 40px;
+  padding: 7.5px;
+  height:40px;
+}
+
+@media screen and (max-width: 968px) {
+  .btn.btn-group-justified a {
+    display: block;
+    width: 100%;
+    position: relative;
+  }
+
+  #duh {
+    padding: 10px;
+  }
+
+  #pwin {
+    float: none !important;
+  }
+
+  #profit {
+    width: 100%;
+  }
+
+  #bet_amt {
+    width: 100%;
+  }
+
+  #fourbtns button {
+    width: 25% !important;
+  }
+
+  #betbtn {
+    width: 40%;
+  }
+
+  #perc {
+    width: 40px;
+    padding: 8px;
+  }
+
+  .splash {
+    padding: 0px;
+  }
+
+  #canvas {
+    width: 100%;
+  }
+}
+
+table { 
+overflow-x: scroll;
+}
+
+#rbtcs {
+  margin-bottom: 20px;
+}
+
+#minbtn, #maxbtn {
+  border: 0px;
+  background: #90b0e5;
+  border-radius: 0px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
+  width:auto;
+}
+
+#bet_field {
+  border: 1px solid #f7f7f7;
+  border-bottom: 2px solid #90b0e5;
+  padding: 30px;
+  font-size: 13pt;
+  font-weight: bold;
+  color: #576a91;
+}
+
+canvas {
+	display: block;
+}
